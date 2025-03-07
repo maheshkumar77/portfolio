@@ -4,21 +4,20 @@ export const projectdata = [
   {
     id: 1,
     projectname: "Swigy Clone",
-    projectdesc:`The landing page allows users to fetch their current location with a search bar featuring debouncing for efficient input. The login/register page supports conditional rendering and OTP authentication via Firebase. Users can sort items by cost, rating, and more, while filtering food choices through multiple options. The address drawer displays the user’s current location on a custom map using React-Map-Gl, and payments are processed through the Razorpay gateway.`,
+    projectdesc:`The landing page fetches users' current location with a debounced search bar, while the login/register page supports OTP authentication via Firebase. Users can sort and filter items, view their address on a custom map with React-Map-Gl, and make payments via Razorpay.`,
     projectlink1: "https://github.com/maheshkumar77/Swigydelivery_app",
     projectlink2l: "https://swigyclones.netlify.app/",
-    projectimg:"../public/swigy.jpg",
+    projectimg:"https://maheshkumar77.github.io/portfolio/swigy.jpg",
     technology: ["Reactjs","Redux","Material UI","Font Awesome Icons","React-Map-Gl","Firebase (OTP Authentication)","RazorPay Integration"],
     
   },
   {
     id: 2,
     projectname: "FitnesssHub",
-    projectdesc:`FitnesssHub is a comprehensive web application for fitness enthusiasts, developed with Next.js. It features over 1000 meticulously 
-    categorized exercises, powered by a custom JSON server for efficient data hosting. The platform offers robust search functionality, allowing users to filter exercises based on specific criteria, and provides detailed information on each exercise to enhance the overall fitness experience.`,
+    projectdesc:`FitnessHub is a Next.js web app for fitness enthusiasts, featuring 1000+ categorized exercises powered by a custom JSON server. It offers robust search and detailed exercise information to enhance the fitness experience.`,
     projectlink1: "https://github.com/maheshkumar77/JIM_Application",
     projectlink2l: "https://astounding-clafoutis-8ad7bd.netlify.app/",
-    projectimg:"public/jimapp.jpg",
+    projectimg:"https://maheshkumar77.github.io/portfolio/jimapp.jpg",
     technology: ["NextJS","ReactJS","SASS"],
     
   },
@@ -28,7 +27,7 @@ export const projectdata = [
     projectdesc:`A real-time chat application built with React.js, Tailwind CSS, Node.js, Express.js, and MongoDB, enabling users to send and receive messages instantly. It supports user authentication,
      private rooms, and a responsive design for seamless communication.`,
     projectlink1: "https://github.com/maheshkumar77/Real--time-Chat-Application.git",
-    projectlink2l: "https://real-time-chata-pplication.netlify.app/login",
+    projectlink2l: "https://real-time-chata-pplication.netlify.app/",
     projectimg:"https://maheshkumar77.github.io/Portfolio_Use_Nextjs/project1.jpg",
     technology: ["Reactjs", "Tailwindcss","Javascript", "Nodejs", "ExpressJs", "Mongodb"],
     
@@ -50,12 +49,11 @@ export const projectdata = [
     id: 5,
     projectname: "Fitness Tracker",
     
-    projectdesc:`The Recipe Application utilizes REST API calls to fetch data, with a responsive frontend built using React, TypeScript, and Tailwind CSS. It features a search bar to 
-    find food recipes and provides detailed recipe instructions along with YouTube video links.`,
-    projectlink1: "https://github.com/maheshkumar77/Food-Recipe-Application",
-    projectlink2l: "https://github.com/maheshkumar77/Food-Recipe-Application",
-    projectimg:"public/healttracker.jpg",
-    technology: ["Reactjs", "Tailwindcss","RestApi","Typescript"],
+    projectdesc:`The Health Tracker app helps users monitor their daily activities, diet, and fitness goals, providing insights for a healthier lifestyle. It tracks progress over time with personalized reports and reminders to stay on track.`,
+    projectlink1: "https://github.com/maheshkumar77/Fitness_Tracker",
+    projectlink2l: "https://fitnesstracker.robertocinetto.com/",
+    projectimg:"https://maheshkumar77.github.io/portfolio/healttracker.jpg",
+    technology: ["NextJS ", "Firebase (authentication),Firestore (database)","TailwindCSS"],
   },
   {
     id: 6,
